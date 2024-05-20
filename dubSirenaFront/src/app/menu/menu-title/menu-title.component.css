@@ -20,6 +20,26 @@ a {
   text-decoration: none;
 }
 
+.btn-home{
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 2rem;
+  width: 200px;
+  background-color: transparent;
+  border: solid 1 px black;
+  text-transform: uppercase;
+}
+
+.btn-home:hover{
+
+  border-color: #33302faf;
+  box-shadow: 1px 5px 10px 1px #313031af;
+  transition: 1s;
+
+
+}
+
+
 .btn-njd {
   padding: 1rem;
   margin: 1rem;
@@ -31,8 +51,8 @@ a {
 }
 
 .btn-njd:hover {
-  border-color: #9712ccaf;
-  box-shadow: 1px 5px 1px 1px #9712ccaf;
+  border-color: #cc1212af;
+  box-shadow: 1px 5px 10px 1px #cc1212af;
   transition: 1s;
 }
 
@@ -48,8 +68,29 @@ a {
 
 .btn-syn:hover {
   border-color: #ccc012af;
-  box-shadow: 1px 5px 1px 1px #ccc912af;
+  box-shadow: 1px 1px 10px 1px #ccc912af;
   transition: 1s;
+}
+
+.btn-lick{
+ 
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 2rem;
+  width: 200px;
+  background-color: transparent;
+  border: solid 1 px black;
+  text-transform: uppercase;
+
+}
+
+.btn-lick:hover{
+
+  
+  border-color: #12cc2baf;
+  box-shadow: 1px 1px 10px 1px #12cc12af;
+  transition: 1s;
+
 }
 
 .all-btn {

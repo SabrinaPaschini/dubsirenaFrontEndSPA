@@ -1,0 +1,21 @@
+.img-eq {
+    width: 500px;
+    text-align: center;
+    margin-left: 23rem;
+    display: flex;
+    text-align: center;
+  }
+  
+  img {
+    width: 400px;
+    height: auto;
+    padding: 1rem;
+    border-radius: 30%;
+    text-align: center;
+  }
+  .txt,
+  h1 {
+    padding-top: 3rem;
+    padding-left: 0rem;
+  }
+  

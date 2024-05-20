@@ -5,12 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuTitleComponent } from './menu/menu-title/menu-title.component';
 import { EquipamentsComponent } from './content/equipaments/equipaments.component';
+import { SyndrumComponent } from './content/syndrum/syndrum.component';
+import { LickshotComponent } from './content/lickshot/lickshot.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuTitleComponent,
-    EquipamentsComponent
+    EquipamentsComponent,
+    SyndrumComponent,
+    LickshotComponent
+  
   ],
   imports: [
     BrowserModule,
