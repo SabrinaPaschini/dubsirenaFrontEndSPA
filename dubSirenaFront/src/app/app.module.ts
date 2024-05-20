@@ -7,6 +7,7 @@ import { MenuTitleComponent } from './menu/menu-title/menu-title.component';
 import { EquipamentsComponent } from './content/equipaments/equipaments.component';
 import { SyndrumComponent } from './content/syndrum/syndrum.component';
 import { LickshotComponent } from './content/lickshot/lickshot.component';
+import { HomeComponent } from './app/home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { LickshotComponent } from './content/lickshot/lickshot.component';
     MenuTitleComponent,
     EquipamentsComponent,
     SyndrumComponent,
-    LickshotComponent
+    LickshotComponent,
+    HomeComponent
   
   ],
   imports: [
