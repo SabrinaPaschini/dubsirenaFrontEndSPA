@@ -1,0 +1,38 @@
+ul,
+li {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-njd{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    width: 200px;
+    background-color: transparent;
+    border-color: #cc1812af;
+    text-transform: uppercase;
+}
+
+.btn-njd:hover{
+    background-color:#cc1812af;
+  }
+
+  .all-btn{
+
+    align-items: center;
+    justify-content: center;
+    border: solid red 1px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+
+
+  }
